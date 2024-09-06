@@ -1,0 +1,136 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  max-width: 40rem;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #8a2b06;
+  padding: 1rem 0;
+}
+
+.itemInfo {
+  display: flex;
+  align-items: center;
+}
+
+.itemName {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.itemPrice {
+  font-weight: bold;
+  color: #8a2b06;
+}
+
+.itemControls {
+  display: flex;
+  align-items: center;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.quantityControl button {
+  font-weight: bold;
+  border: 1px solid #8a2b06;
+  width: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  color: #8a2b06;
+  text-decoration: none;
+}
+
+.quantityControl button:hover,
+.quantityControl button:active {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.quantityControl span {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.removeButton {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.25rem 1rem;
+  border-radius: 6px;
+  color: #8a2b06;
+  text-decoration: none;
+}
+
+.removeButton:hover,
+.removeButton:active {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.totalAmount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.actions .closeButton {
+  color: #8a2b06;
+}
+
+.actions .orderButton {
+  background-color: #8a2b06;
+  color: white;
+}

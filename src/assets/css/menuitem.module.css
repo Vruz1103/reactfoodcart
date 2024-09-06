@@ -1,0 +1,79 @@
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.itemInfo {
+  flex-grow: 1;
+}
+
+.itemName {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.itemDescription {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.itemPrice {
+  font-weight: bold;
+  color: #8a2b06;
+}
+
+.itemControls {
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.addButton:hover,
+.addButton:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+}
+
+.quantityControl button {
+  font-weight: bold;
+  border: 1px solid #8a2b06;
+  width: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  color: #8a2b06;
+  text-decoration: none;
+}
+
+.quantityControl button:hover,
+.quantityControl button:active {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.quantityControl span {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}

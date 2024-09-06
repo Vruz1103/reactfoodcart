@@ -1,0 +1,29 @@
+.foodApp {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.banner {
+  width: 100%;
+  background-color: #383838;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.bannerContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bannerTitle {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bannerText {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
